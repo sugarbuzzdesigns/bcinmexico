@@ -1,0 +1,12 @@
+build/
+dist/
+doc/
+zip/
+node_modules/
+ingest/
+
+.DS_Store
+.grunt
+/sourcemaps
+*.sublime-*
+deploy.json
