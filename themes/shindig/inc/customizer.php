@@ -1434,7 +1434,7 @@ function progression_customize_css()
     ?>
 <style type="text/css">
 	body #logo, body #logo img {width:<?php echo get_theme_mod('logo_width', '180'); ?>px;}
-	body #logo-footer, body #logo-footer img {width:<?php echo get_theme_mod('footer_logo_width', '180'); ?>px;}
+	/*body #logo-footer, body #logo-footer img {width:<?php echo get_theme_mod('footer_logo_width', '180'); ?>px;}*/
 	.sf-menu a { padding-top:<?php echo get_theme_mod('header_padding', '26'); ?>px; padding-bottom:<?php echo get_theme_mod('header_padding', '26'); ?>px; }
 	/*nav { background-color:<?php echo get_theme_mod('nav_bg_main', '#061d3d'); ?>; }*/
 	#gradient-header-pro, #gradient-mobile-pro { background-image: linear-gradient(<?php echo get_theme_mod('nav_bg_main', '#061d3d'); ?>, transparent); }
@@ -1456,9 +1456,9 @@ function progression_customize_css()
 		border-color:<?php echo get_theme_mod('nav_hvr_bg', '#29b0d1'); ?>;
 	}
 	/*body, footer {background:<?php echo get_theme_mod('footer_bg_progression', '#061d3d'); ?>;}*/
-	#footer-gradient-header-pro { background-image: linear-gradient(<?php echo get_theme_mod('footer_bg_progression', '#061d3d'); ?>, transparent); }
+	/*#footer-gradient-header-pro { background-image: linear-gradient(<?php echo get_theme_mod('footer_bg_progression', '#061d3d'); ?>, transparent); }*/
 	body.post-type-archive-timeline #main, body.tax-timeline_day #main { background:<?php echo get_theme_mod('timeline_bg_color_pro', '#061d3d'); ?>; }
-	body, .woocommerce-container-pro a, .woocommerce-container-pro a:hover { color:<?php echo get_theme_mod('body_font_progression', '#535353'); ?>; }
+	/*body, .woocommerce-container-pro a, .woocommerce-container-pro a:hover { color:<?php echo get_theme_mod('body_font_progression', '#535353'); ?>; }*/
 	#page-title h1 { color:<?php echo get_theme_mod('page_font_progression', '#ffffff'); ?>; border:2px solid <?php echo get_theme_mod('page_font_progression', '#ffffff'); ?>; }
 	a, .comments-pro-blog, body #main ul li.product .amount, body #main .entry-summary .amount, .star-rating, body .main-text-widgetpro ul li.product .amount, body .main-text-widgetpro .entry-summary .amount { color:<?php echo get_theme_mod('body_link_progression', '#A6B39C'); ?>; }
 	a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color:<?php echo get_theme_mod('body_link_hover_progression', '#A6B39C'); ?>; }
@@ -1469,7 +1469,7 @@ function progression_customize_css()
 	.sf-menu li li li li li:hover, .sf-menu li li li li li.sfHover, .sf-menu li li li li li a:focus, .sf-menu li li li li li a:hover, .sf-menu li li li li li a:active, .sf-menu li li li li li.sfHover a, .sf-menu li li li li.sfHover li a:visited:hover, .sf-menu li li li li li:hover a:visited  { color:<?php echo get_theme_mod('sub_hover_font_color', '#ffffff'); ?>; }
 	h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .gallery-caption, body #main h3.product-title-index-pro a, .summary-text-pro, body .homepage-widget-blog h3.product-title-index-pro a {	color:<?php echo get_theme_mod('heading_font_progression', '#061d3d'); ?>; }
 	footer .social-ico a i {color:<?php echo get_theme_mod('footer_social_icon_clr', '#A6B39C'); ?>; }
-	footer { color:<?php echo get_theme_mod('footer_font_color_pro', '#949da8'); ?>; }
+	/*footer { color:<?php echo get_theme_mod('footer_font_color_pro', '#949da8'); ?>; }*/
 	footer h5 { color:<?php echo get_theme_mod('footer_hovr_font_color_pro', '#ffffff'); ?>; }
 	/* Default Button */
 	body #main input.wpcf7-submit, body a.ls-sc-button.default,

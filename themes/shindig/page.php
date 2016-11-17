@@ -26,7 +26,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'content', 'page' ); ?>
 		<?php endwhile; // end of the loop. ?>
-				
+
 		<div class="clearfix"></div>
 	</div><!-- close .width-container -->
 </div><!-- close #main -->

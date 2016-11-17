@@ -95,7 +95,7 @@ textarea {
 }
 
 body {
-	background: url(images/body-bg-top.jpg) no-repeat;
+	background: #5f7f7c url(images/bg-full-2.jpg) no-repeat;
 	background-size: 100%;
 	margin: 0;
 	font-size: 1em;
@@ -427,6 +427,8 @@ h1.timeline-day-archive,
 #pro-home-slider .pro-sub-headline {
 	font-family: 'Khula', sans-serif;
 }
+
+body.home
 
 body .homepage-widget-blog button.single_add_to_cart_button,
 body .homepage-widget-blog input.button,
@@ -1064,7 +1066,7 @@ body.tax-timeline_day #main {
 }
 
 .homepage-widget-blog {
-	padding: 70px 0px 55px 0px;
+	padding: 40px 0px 55px 0px;
 }
 
 .homepage-widget-blog h1,
@@ -1113,6 +1115,12 @@ body.tax-timeline_day #main {
 
 #map-text-pro .button-map-pro {
 	margin-top: 25px;
+}
+/*
+=============================================== WIDGET SPECIFIC STYLES ===============================================
+*/
+#pyre_homepage_schedule-widget-1 {
+	background-color: rgba(104, 111, 116, 0.5);
 }
 
 /*
@@ -1741,6 +1749,7 @@ p.form-allowed-tags {
 */
 footer {
 	padding: 0px 0px 70px 0px;
+	color: #073531;
 }
 
 footer a {
@@ -1754,13 +1763,13 @@ footer a:hover {
 body #logo-footer,
 body #logo-footer img {
 	max-width: 100%;
+	width: 300px;
 }
 
 footer h1#logo-footer {
 	line-height: 1;
 	font-size: 5px;
 	position: relative;
-	z-index: 60;
 	margin: 0px auto 25px auto;
 	padding: 0px;
 	border: none;
