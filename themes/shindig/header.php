@@ -31,7 +31,7 @@
 					<img src="<?php echo get_theme_mod( 'logo_upload', get_template_directory_uri() . '/images/logo.png' ); ?>" alt="<?php bloginfo('name'); ?>" width="<?php echo get_theme_mod( 'logo_width', '180' ); ?>" />
 				</a>
 			</h1>
-			<?php wp_nav_menu( array('theme_location' => 'primary', 'depth' => 4, 'menu_class' => 'sf-menu', 'fallback_cb' => false ) ); ?><?php if ( has_nav_menu( 'primary' ) ):  ?><?php else: ?><span class="nav-pro-span"><?php _e( 'Insert Navigation under Appearance > Menus', 'progression' ); ?></span><?php endif; ?><div class="clearfix"></div>
+
 			</div><!-- close .width-container -->
 		</nav>
 		</div><!-- close #left-logo-pro -->
