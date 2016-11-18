@@ -825,7 +825,7 @@ input,
 /* -------------------- A. HEADER CONTAINERS -------------------- */
 header {
 	margin: 0px;
-	padding: 0px;
+	padding: 150px 0px 180px 0px;
 	position: relative;
 	z-index: 55;
 	text-align: center;
@@ -846,7 +846,7 @@ body #logo img {
 }
 
 header #logo {
-	margin: 24px auto 20px auto;
+	margin: 24px auto 0 auto;
 	padding: 0px;
 	border: none;
 }
@@ -2476,8 +2476,8 @@ body #single-product-pro button.single_add_to_cart_button {
 	font-weight: 600;
 	padding: 15px 22px;
 	background: #ffffff;
-	border: 2px solid #29b0d1;
-	color: #29b0d1;
+	border: 2px solid #64817f;
+	color: #64817f;
 }
 
 body .homepage-widget-blog button.single_add_to_cart_button:hover,
@@ -2493,7 +2493,7 @@ body.woocommerce-cart #main td.actions  input.button.checkout-button:hover,
 body #main button.button:hover,
 body #main a.button:hover,
 body #single-product-pro button.single_add_to_cart_button:hover {
-	background: #29b0d1;
+	background: #64817f;
 	color: #ffffff;
 }
 

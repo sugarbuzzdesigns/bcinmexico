@@ -13,9 +13,9 @@ get_header(); ?>
 		</header>
 	<?php else: ?>
 		</header>
-		<div id="page-title"><div class="width-container"><h1><?php the_title(); ?></h1></div></div><!-- close #page-title -->
+		<div id="page-title" style="display: none;"><div class="width-container"><h1><?php the_title(); ?></h1></div></div><!-- close #page-title -->
 	<?php endif; ?>
-	
+
 
 <div class="clearfix"></div>
 
