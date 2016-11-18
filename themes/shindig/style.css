@@ -914,6 +914,7 @@ body.page-template-homepage h1#logo {
 	margin-right: auto;
 	text-align: center;
 	padding-bottom: 80px;
+	visibility: hidden;
 }
 
 #page-title h1 {
