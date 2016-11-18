@@ -1749,6 +1749,8 @@ p.form-allowed-tags {
 =============================================== 07. FOOTER STYLES ===============================================
 */
 footer {
+	background: #5f7f7c url(images/bg-full-2.jpg) no-repeat bottom;
+	background-size: 100%;
 	padding: 0px 0px 70px 0px;
 	color: #073531;
 }
