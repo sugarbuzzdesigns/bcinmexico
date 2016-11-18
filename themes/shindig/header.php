@@ -38,7 +38,7 @@
 		<?php if (get_theme_mod( 'fixed_nav_pro', '1' )) : ?></div><!-- close #fixed-nav-pro --><?php endif; ?>
 		<div id="gradient-header-pro"></div>
 	<?php else: ?>
-	<nav>
+	<nav style="display: none;">
 		<div id="center-navigation-pro"><?php wp_nav_menu( array('theme_location' => 'primary', 'depth' => 4, 'menu_class' => 'sf-menu', 'fallback_cb' => false ) ); ?><?php if ( has_nav_menu( 'primary' ) ):  ?><?php else: ?><span class="nav-pro-span"><?php _e( 'Insert Navigation under Appearance > Menus', 'progression' ); ?></span><?php endif; ?></div><!-- close #center-navigation-pro --><div class="clearfix"></div>
 	</nav>
 	<?php if (get_theme_mod( 'fixed_nav_pro', '1' )) : ?></div><!-- close #fixed-nav-pro --><?php endif; ?>
