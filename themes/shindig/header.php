@@ -19,14 +19,18 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	
+
 <header>
 	<?php if (get_theme_mod( 'fixed_nav_pro', '1' )) : ?><div id="fixed-nav-pro"><?php endif; ?>
 	<?php if (get_theme_mod( 'nav_reposition_pro' )) : ?>
 		<div id="left-logo-pro">
 		<nav>
 			<div class="width-container">
-			<h1 id="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'logo_upload', get_template_directory_uri() . '/images/logo.png' ); ?>" alt="<?php bloginfo('name'); ?>" width="<?php echo get_theme_mod( 'logo_width', '180' ); ?>" /></a></h1>
+			<h1 id="logo">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">'
+					<img src="<?php echo get_theme_mod( 'logo_upload', get_template_directory_uri() . '/images/logo.png' ); ?>" alt="<?php bloginfo('name'); ?>" width="<?php echo get_theme_mod( 'logo_width', '180' ); ?>" />
+				</a>
+			</h1>
 			<?php wp_nav_menu( array('theme_location' => 'primary', 'depth' => 4, 'menu_class' => 'sf-menu', 'fallback_cb' => false ) ); ?><?php if ( has_nav_menu( 'primary' ) ):  ?><?php else: ?><span class="nav-pro-span"><?php _e( 'Insert Navigation under Appearance > Menus', 'progression' ); ?></span><?php endif; ?><div class="clearfix"></div>
 			</div><!-- close .width-container -->
 		</nav>
