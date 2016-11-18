@@ -95,7 +95,6 @@ textarea {
 }
 
 body {
-	background: #5f7f7c url(images/bg-full-2.jpg) no-repeat;
 	background-size: 100%;
 	margin: 0;
 	font-size: 1em;
@@ -824,11 +823,14 @@ input,
 
 /* -------------------- A. HEADER CONTAINERS -------------------- */
 header {
+	background: #5f7f7c url(images/bg-full-2.jpg) no-repeat;
 	margin: 0px;
 	padding: 150px 0px 180px 0px;
 	position: relative;
 	z-index: 55;
 	text-align: center;
+    background-size: cover;
+    background-position: bottom center;
 }
 
 header h1 {
@@ -3876,6 +3878,7 @@ body .gallery-progression .flex-control-paging li a {
 */
 body.admin-bar .share-progression {
 	top: 165px;
+	display: none;
 }
 
 .share-progression {
@@ -3883,6 +3886,7 @@ body.admin-bar .share-progression {
 	top: 135px;
 	right: 0px;
 	z-index: 80;
+	display: none;
 }
 
 body.admin-bar.page-template-homepage .share-progression {

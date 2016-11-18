@@ -36,14 +36,11 @@
 		</nav>
 		</div><!-- close #left-logo-pro -->
 		<?php if (get_theme_mod( 'fixed_nav_pro', '1' )) : ?></div><!-- close #fixed-nav-pro --><?php endif; ?>
-		<div id="gradient-header-pro"></div>
 	<?php else: ?>
 	<nav style="display: none;">
 		<div id="center-navigation-pro"><?php wp_nav_menu( array('theme_location' => 'primary', 'depth' => 4, 'menu_class' => 'sf-menu', 'fallback_cb' => false ) ); ?><?php if ( has_nav_menu( 'primary' ) ):  ?><?php else: ?><span class="nav-pro-span"><?php _e( 'Insert Navigation under Appearance > Menus', 'progression' ); ?></span><?php endif; ?></div><!-- close #center-navigation-pro --><div class="clearfix"></div>
 	</nav>
 	<?php if (get_theme_mod( 'fixed_nav_pro', '1' )) : ?></div><!-- close #fixed-nav-pro --><?php endif; ?>
-	<div id="gradient-header-pro"></div>
 	<h1 id="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'logo_upload', get_template_directory_uri() . '/images/logo.png' ); ?>" alt="<?php bloginfo('name'); ?>" width="<?php echo get_theme_mod( 'logo_width', '180' ); ?>" /></a></h1>
 	<?php endif; ?>
-	<div id="gradient-mobile-pro"></div>
 	<div class="share-progression"><?php get_template_part( 'social', 'icons' ); ?></div><!-- close .share-progression -->
