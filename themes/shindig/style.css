@@ -1126,6 +1126,12 @@ body.tax-timeline_day #main {
 	background-color: rgba(104, 111, 116, 0.5);
 }
 
+#pyre_homepage_media-widget-about img {
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+}
+
 /*
 =============================================== 06. BLOG STYLES ===============================================
 */
